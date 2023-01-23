@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn css</title>
+    <!-- link font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+
+        }
+        body{
+            background-color: aqua;
+            font-family: 'Roboto', sans-serif;
+
+        }
+        .container{
+            width: 900px;
+            background-color: rgb(184, 169, 67);
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* header style  start*/
+        /* header{
+
+        } */
+       .profile_image{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 3px solid width;
+        float: left;
+       }
+       .header_person_name{
+        float: left;
+        padding: 20px;
+
+       }
+       h1,h2,h3,h4,h5,h6{
+        color: navy;
+       }
+       .header_link{
+        float: right;
+        padding: 30px;
+
+       }
+       .header_link a{
+        text-decoration: none;
+        color: teal;
+        font-weight: bold;
+
+       }
+       .header_link a:hover{
+        text-decoration: underline;
+        color: tomato;
+
+    }
+    .clear_div{
+        clear: both;
+    }
+    hr{
+        border: solid black 4px;
+        width: 100%;
+        margin: 20px auto;
+        border-bottom: none;
+    }
+        /* header style  end*/
+        /* main style start */
+        /* #personal_section{
+
+        }
+        .content{
+
+        } */
+        .left_div{
+            width: 30%;
+            float: left;
+
+        }
+        .left_info{
+            margin-left:100px ;
+
+        }
+        .right_div{
+            width: 70%;
+            float: left;
+        }
+        .common_hr{
+
+            border: solid black 1px;
+            border-bottom: none;
+            width: 100%;
+            margin: 20px auto;
+        }
+        /* education_section start */
+
+        .right_div1{
+            float: left;
+            width: 45%;
+
+        }
+        .right_div2{
+            float: right;
+            width: 45%;
+
+}
+        /* education_section end */
+
+        /* footer_section start */
+
+        .bottom_container{
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+
+
+        }
+        .bottom_container a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .bottom_container p{
+            color: white;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        /* footer_section end */
+
+
+        /* main style end */
+
+
+
+    </style>
+</head>
+<body>
+    <!-- container start -->
+    <div class="container">
+    <!-- header part start -->
+    <header>
+        <img class="profile_image" src="image/hakim22.jpg" alt="">
+        <div class="header_person_name">
+            <h1>Md. Hakim Uddin</h1>
+            <h3>Web Designer</h3>
+        </div>
+            <div class="header_link">
+                <p> <a href="#" class="style_kink">Email:  hakimmh5707768@gmail.com</a></p>
+                
+                <p><a href="tel:+8801685343374" class="style_kink">Phone: +8801685343374</a></p> 
+              
+            </div>
+    </header>
+     <!-- header part end -->
+
+
+
+    <!-- clearing div start -->
+
+    <div class="clear_div"></div>
+    <hr>
+    <!-- clearing div end -->
+
+
+
+    <!-- main div start -->
+    <main>
+        <!-- personal_section start -->
+        <section id="personal_section">
+            <div class="content">
+                <div class="left_div">
+                    <h2>Personal Information</h2>
+                </div>
+                <div class="right_div">
+                    <p>Address : Mongol Chad Thalokder Bari , Fatikchari , Chattogram ,Bangladesh. </p>
+                    <p>Sex : Male</p>
+                    <p>Date of birth : 20/01/1999</p>
+                    <p>Nationality : Bangladeshi  </p>
+                    <p>Religion : Islam   </p>
+                    
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- personal_section end -->
+        <!-- clearing div start -->
+
+    <div class="clear_div"></div>
+    
+    <!-- clearing div end -->
+
+        <hr class="common_hr">
+
+         <!-- woek_section start -->
+         <section id="work_section">
+            <div class="content">
+                <div class="left_div">
+                    <h2>Work Experience </h2>
+                </div>
+                <div class="right_div">
+                    <h3>Population Housing Sences 2022</h3>
+                   <p>I Was a employee of population housing sences 2022 . I worked in my village .</p>
+                  <br><br>
+                   <h3>Computer skill</h3>
+                   <p>I have three years experience in Microsoft Word , Microsoft Excel , Microsoft Power Point.</p>
+        
+                </div>
+                
+            </div>
+        </section>
+        <!-- work_section end -->
+        <!-- clearing div start -->
+
+    <div class="clear_div"></div>
+    
+    <!-- clearing div end -->
+
+        <hr class="common_hr">
+
+      <!-- education_section start -->
+      <section id="education_section">
+        <div class="content">
+            <div class="left_div">
+                <h2>Education  </h2>
+            </div>
+            <div class="right_div">
+               <div class="right_div1">
+              <h4>S S C Background</h4>
+              <p>Nazirhat Collegiate High School</p>
+              <p>Result : 4.00</p>
+
+               </div>
+               <div class="right_div2">
+                <h4>H S C Background</h4>
+                <p>Nazirhat College</p>
+                <p>Result : 3.58</p>
+                
+            </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- education_section end -->
+    
+
+    </main>
+    <!-- main div end -->
+    <div class="clear_div"></div>
+    
+    <!-- clearing div end -->
+
+        <hr class="common_hr">
+
+
+
+
+
+    <!-- footer div start -->
+    <footer class="bottom_container">
+        <a href="">Fecebook</a>
+        <a href="">Youtube</a>
+        <a href="">Website</a>
+       <p>Copyright &copy; Hakim Uddin 2022</p>
+
+    </footer>
+    <!-- footer div end -->
+
+
+
+
+
+
+
+
+    </div>
+    <!-- container end -->
+
+
+    
+
+
+
+</body>
+</html>    
+
+
